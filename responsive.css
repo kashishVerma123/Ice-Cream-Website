@@ -1,0 +1,127 @@
+@media screen and (max-width: 1200px){
+    .nav-bar .navbar-nav .nav-link{
+        padding: 5px 5px;
+        font-size: 14px;
+    }
+    .nav-bar .navbar h1{
+        font-size: 35px;
+    }
+    .nav-bar .navbar span{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 992px){
+    .nav-bar .navbar-nav .nav-link{
+        padding: 10px 7px;
+        font-size: 14px;
+    }
+    .carousel{
+        position: relative;
+        bottom: 2.8rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav-bar .navbar{
+        border-radius: 0px;
+    }
+    .nav-bar .navbar h1{
+        font-size: 40px;
+    }
+    .nav-bar .navbar span{
+        font-size: 40px;
+    }
+    .nav-bar .navbar-nav .nav-link{
+        padding: 10px 0px;
+    }
+    .carousel{
+        bottom: 1rem;
+    }
+    .carousel button i{
+        font-size:22px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h2::before{
+        top: -10px;
+        left: 40%;
+        width: 120px;
+        height: 7px;
+    }
+    h2::after{
+        top: -8px;
+        left: 40%;
+        width: 120px;
+        height: 2px;
+    }
+    .sec-about h4{
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .sec-about p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 7px 5px;
+    }
+    .sec-about img{
+        max-width: 80%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 692px){
+    .carousel h3{
+        display: none;
+    }
+    .carousel h4{
+    display: none;
+    }
+    .promotion .pro-col{
+        min-height: 300px;
+    }
+}
+@media screen and (max-width: 476px){
+    .nav-bar .navbar{
+        border-radius: 0px;
+    }
+    .nav-bar .navbar h1{
+        font-size: 30px;
+    }
+    .nav-bar .navbar span{
+        font-size: 30px;
+    }
+    .carousel{
+        bottom: 0px;
+    }
+    .sec-about img{
+        max-width: 60%;
+        height: auto;
+    }
+    .sec-about ul li i{
+        font-size: 22px;
+    }
+    .sec-about ul li span{
+        font-size: 18px;
+    }
+    .promotion .pro-col2 h3{
+       padding-top: 1.8rem;
+    }
+    .sec-product .owl-theme .owl-nav {
+        top: -40px;
+      }
+      .sec-product .owl-nav .owl-prev span{
+        font-size: 30px;
+      }
+      .sec-product .owl-nav .owl-next span{
+        font-size: 30px;
+      }
+      .sec-testimonial p{
+        font-size: 16px;
+    }
+    .sec-testimonial .carousel-indicators{
+        bottom: -2rem;
+       }
+
+}
